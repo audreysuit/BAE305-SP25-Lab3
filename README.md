@@ -150,25 +150,6 @@ Circuit 4
 
 # Discussion
 
-2a-Do the instruments agree with the expected value?
 
-Each capacitor value fell within the expected range for its capacitance, except for capacitor 3 and 4 which were out of range. This could be due to an innacurate reading of the capacitance, a damaged capacitor, or errors in DMM measurement. All resistance values fell within tolerance.
-
-2b- Does polarity affect the measurement of the electrolytic capacitor?
-
-Polarity did not affect the measurement. If anything, it was a negligible amount that could be attributed to measurement error. This indicates that the capacitors were likely non-polarized since we could connect the DMM leads in either direction with no affect on the result.
-
-Discussion Question 1: Do the instruments agree with each other in part 3? Why?
-
-They agreed with each other as the voltage output shown on the D.C. Power Supply's screen matched the measured value from the Fluke DMM. Thus, the Fluke DMM verified that the D.C. Power Supply was delivering its reported voltage.
-
-Discussion Question 2: Do the instruments agree in part 4 for the oscilliscope/function generator? Why?
-
-When measuring the amplitude and frequency, the instruments didn't produce the exact same values. However, the difference was so small, it could be counted as negligible and it can be determined that the values were more or less the same. The only measurable difference was in the DMM amplitude reading, which was innacurate since it cannot depict a sine wave. Additionally, as we increased the frequency values, the amplitude of the sine wave decreased, when it should have remained the same since the voltage source did not change.
-
-In addition to the discussion questions, we learned the importance of identifying and connecting the right ports when using the Fluke DMM and testing resistance and capacitance values. This is important so the correct values are being measured, and so you do not damage any of the equipment by short circuiting it. Safety is essential, so we must be aware of the circuits we are creating and how they are connected. Finally, measuring equipment can be prone to error, so it is important to check and verify results using multiple, or the most precise methods.
 
 # Conclusion
-
-In summary, this lab aimed to incorporate commonly used circuit components and devices into a test procedure. We verified values for components like resistors and capacitors and devices like the Function Generator. By using many different tools, we are now familiarity with the usage and purpose of the Oscilloscope Tektronix TS2012, Fluke DMM, D.C. Power Supply, and Function Generator. The completion and learning attained by this lab will help us in future labs as we expand on the usage of these instruments with more complex projects and purposes. Most resistors and capacitors were in tolerance, the voltage output of the DCPS was close to the set values, and the function generator set values were similar to those collected by the 4 different measurement methods.
-
