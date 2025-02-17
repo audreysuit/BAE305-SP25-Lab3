@@ -144,25 +144,8 @@ The results obtained for step 1 of the Test Procedures are shown in the table be
 
 
 
-The results obtained for step 3 of the Test Procedures are shown in the table below. The set voltages were very close, if not exactly the same, as the measured voltages. Errors were likely due to DMM measurement since sometimes values would continue to change on the DMM after the probes were attached. This could lead to some measurement error.
 
-**DC Power Source Voltage Output Table**
-|Set Voltage (V)|Measured Voltage (V)|
-|----------|----------|
-|1.56|1.494|
-|7.00|7.00|
-|12.00|12.01|
-|3.3|3.389|
 
-The results obtained for step 4 of the Test Procedures are shown in the table below. All values were close to one another, however were not the same as the frequency set by the function generator (2kHz), this is likely due to the age of the machine and calibration. The amplitude was similar to what we set the function generator (5V). The DMM did not read amplitude accurately as we could not measure the varying voltage accurately since it does not measure a range of values, only one value at a time. The measurement feature of the frequency generator is the most accurate since it can exactly read the amplitude peaks.
-
-**Function Generator Output Table**
-|Measurement Method|Frequency (kHz)|Amplitude (V)|
-|----------|----------|----------|
-|Cursors|4.81|5.04|
-|Counting Squares|5|5|
-|Measurement Features|4.66|5.25|
-|Fluke DMM|4.66|0.126|
 
 
 # Discussion
