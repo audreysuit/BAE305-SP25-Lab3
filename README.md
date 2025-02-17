@@ -180,6 +180,20 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 
 # Discussion
 
+### LED Driving Circuits
 
+Discussion Question 1: How does the current through the LED compare between circuits 1 and 2? 
+In Circuit 1, the current through the LED with the switch on was 11.65 mA. In Circuit 2, the current through the LED was the switch was on was 11.53 mA. The values are separated by a very small value, just 0.13 mA. With small errors, it could be approximated that the circuits produce the same value across the LED when the switch is on.
+
+Discussion Question 2: The datasheet mentions a maximum voltage drop (VCE) of 1.2V at saturation. We would like a much smaller value, such as the fraction of a volt that you measured in the first circuit across the switch, S1, when it is on. How does your measured VCE compare to the one listed in the datasheet? Do you think we are operating this transistor in the saturation region? 
+Our voltage drop was 0.016V, which is smaller than the maximum voltage drop of 1.2 V. We also saw a high current, 11.53mA, so we are in the saturation region.
+
+### Motor Driving Circuits
+
+Discussion Question 1: What is the voltage drop (VCE) across the transistor (Q1) when the motor is in the Fast setting? How does this compare with the circuit that drove the LED? 
+The VCE across the transistor Q1 was 0.211V when the motor was in the "fast" setting. This voltage drop is higher than the one across the LED, as the current is much higher.
+
+Discussion Question 2: How much current is going through the motor in the Fast setting? How does this compare to the current that the LED circuit used? If the switch was only just barely able to meet the current requirements of the LED, could it support the motor directly or would the transistor switch be required? 
+When the motor was in the "fast" setting, the current going through it was 158.7 mA. Comparitively, the LED circuit used 11.53 mA when the LED was in the "bright" setting. The switch would not be able to support the motor directly and the transistor switch would be required to ensure enough current would be supplied to run the motor.
 
 # Conclusion
