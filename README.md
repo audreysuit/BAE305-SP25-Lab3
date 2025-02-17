@@ -33,7 +33,7 @@ Resistors: 2.2Ω, 270Ω, 1kΩ, LED, Sliding Switch, Electric Motor, NTE 125 D
 | Red Red Gold     | 2.2Ω               | 10           | 2.7Ω               | No               |
 
 
-#Circuit 1
+Circuit 1
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
@@ -54,7 +54,7 @@ Resistors: 2.2Ω, 270Ω, 1kΩ, LED, Sliding Switch, Electric Motor, NTE 125 D
 | LED1      | 11.65 mA                     | 0.01 mA                      |
 
 
-#Circuit 2
+Circuit 2
 
 
 ### **Test Point Voltages**
@@ -80,7 +80,7 @@ Resistors: 2.2Ω, 270Ω, 1kΩ, LED, Sliding Switch, Electric Motor, NTE 125 D
 | R2 (IB)    | 4.33 mA                      | 0.02 mA                      |
 
 
-#Circuit 3
+Circuit 3
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Dim LED) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Bright LED) |
@@ -111,7 +111,7 @@ Resistors: 2.2Ω, 270Ω, 1kΩ, LED, Sliding Switch, Electric Motor, NTE 125 D
 | Midpoint 2| 8.07          |
 | Bright LED| 2.65          |
 
-#Circuit 4
+Circuit 4
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Slow Motor) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Fast Motor) |
