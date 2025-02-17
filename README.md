@@ -21,11 +21,15 @@ Using the Fluke digital multimeter, we measured the actual resistance of the 270
 
 ![image](https://github.com/user-attachments/assets/7efe37d6-9e24-40b1-ad59-e12995962bc7)
 
+![image](https://github.com/user-attachments/assets/54aa4002-e577-45a0-b0a3-bfef55357ac6)
+
 Instead of using a physical switch, we connected a wire that we could plug and unplug as needed for testing. 
 
 After taking measurements detailed in the Test Procedures section of this lab report, we built the next circuit below on the breadboard.
 
 ![image](https://github.com/user-attachments/assets/fd9ed978-ba90-4d89-986d-15f4de22a728)
+
+![image](https://github.com/user-attachments/assets/7ccadc78-e362-483d-b361-cde290b46e78)
 
 We again used a wire as a switch.
 
@@ -33,13 +37,20 @@ After taking measurements also detailed in the Test Procedures, we built the cir
 
 ![image](https://github.com/user-attachments/assets/51b995fb-a0f5-4d96-a954-46b94395d2f3)
 
-A small screwdriver is required to adjust the potentiometer, and thus the circuit to create varying levels of LED brightness.
+![image](https://github.com/user-attachments/assets/456bafd9-6106-4d6a-8e6e-d11c306d3dbc)
+
+
+As the potentiometer has a resistance of 1kΩ, it is represented on the schematic with "R3" and a resistor symbol. A small screwdriver is required to adjust the potentiometer, and thus the circuit to create varying levels of LED brightness. 
+
 
 ### Part 2 : Motor Driving Circuit
 
 After completing part one, we built the motor driving circuit shown below.
 
 ![image](https://github.com/user-attachments/assets/aedef844-4d57-484c-b99d-41064e64cf6c)
+
+![image](https://github.com/user-attachments/assets/f90f95a9-7dff-4269-944c-252461786d44)
+
 
 We rested the motor on our wire-holding plastic case so it would be level with the circuit and keep it from straining the wires attaching it to the breadboard. This also stabilized it while it was turned on.
 As with the LED brightness, the motor speed was controlled by using a small screwdriver to adjust the potentiometer.
