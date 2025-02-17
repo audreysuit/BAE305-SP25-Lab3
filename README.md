@@ -63,7 +63,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Red Red Gold     | 2.2Ω               | 10           | 2.7Ω               | No               |
 
 
-### Circuit 1 ----------------------------------------------------------------------------------------------------------------------------
+### Circuit 1 -----------------------------------------------------------------------------------------------------------------
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
@@ -84,7 +84,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | LED1      | 11.65 mA                     | 0.01 mA                      |
 
 
-### Circuit 2 ----------------------------------------------------------------------------------------------------------------------------
+### Circuit 2 -----------------------------------------------------------------------------------------------------------------
 
 
 ### **Test Point Voltages**
@@ -110,7 +110,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | R2 (IB)    | 4.33 mA                      | 0.02 mA                      |
 
 
-### Circuit 3 ----------------------------------------------------------------------------------------------------------------------------
+### Circuit 3 -----------------------------------------------------------------------------------------------------------------
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Dim LED) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Bright LED) |
@@ -141,7 +141,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Midpoint 2| 8.07          |
 | Bright LED| 2.65          |
 
-### Circuit 4 ----------------------------------------------------------------------------------------------------------------------------
+### Circuit 4 -----------------------------------------------------------------------------------------------------------------
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Slow Motor) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Fast Motor) |
