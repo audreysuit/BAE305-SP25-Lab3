@@ -104,7 +104,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 # Test Results
 
 
-**Resistor Values Table**  
+**Table 1: Resistor Values Table**  
 | Color Code        | Expected Value (Ω) | Tolerance (%) | Measured Value (Ω) | Within Tolerance |
 |-------------------|--------------------|--------------|--------------------|------------------|
 | Red Violet Brown | 270Ω               | 10           | 267.7Ω             | Yes              |
@@ -114,20 +114,20 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 
 ### Circuit 1 ---------------------------------------------------------------------------------------------            
 
-### **Test Point Voltages**
+### **Table 2.1: Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
 |------------|---------------------|----------------------|
 | T2         | 1.878V              | 5.00V               |
 | T3         | 0.001V              | 3.698V              |
 
-### **Component Voltage Drops**
+### **Table 2.2: Component Voltage Drops**
 | Component | Voltage Across (Switch On) | Voltage Across (Switch Off) |
 |-----------|----------------------------|-----------------------------|
 | R1        | 3.128V                     | 0V                          |
 | LED1      | 1.875V                     | 0.063V                      |
-| S1        | 0V                          | 0V                          |
+| S1        | 0V                         | 0V                          |
 
-### **Current Measurements**
+### **Table 2.3: Current Measurements**
 | Component | Current Through (Switch On) | Current Through (Switch Off) |
 |-----------|-----------------------------|------------------------------|
 | LED1      | 11.65 mA                     | 0.01 mA                      |
@@ -136,7 +136,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 ### Circuit 2 -----------------------------------------------------------------------------------------------------------------
 
 
-### **Test Point Voltages**
+### **Table 3.1: Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
 |------------|---------------------|----------------------|
 | T2         | 1.889V              | 4.99V               |
@@ -144,7 +144,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T5 (VBE)   | 0.695V              | 0V                  |
 | T6         | 5.00V               | 0V                  |
 
-### **Component Voltage Drops**
+### **Table 3.2: Component Voltage Drops**
 | Component | Voltage Across (Switch On) | Voltage Across (Switch Off) |
 |-----------|----------------------------|-----------------------------|
 | R1        | 3.105V                     | 0V                          |
@@ -152,7 +152,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | R2        | 4.30V                      | 0V                          |
 | S1        | 0V                          | 0V                          |
 
-### **Current Measurements**
+### **Table 3.3: Current Measurements**
 | Component  | Current Through (Switch On) | Current Through (Switch Off) |
 |------------|-----------------------------|------------------------------|
 | LED1 (IC)  | 11.53 mA                     | 0.01 mA                      |
@@ -161,7 +161,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 
 ### Circuit 3 -----------------------------------------------------------------------------------------------------------------
 
-### **Test Point Voltages**
+### **Table 4.1: Test Point Voltages**
 | Test Point | Voltage (Dim LED) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Bright LED) |
 |------------|------------------|------------------|------------------|------------------|
 | T2         | 4.68V            | 1.947V           | 1.898V           | 1.892V           |
@@ -169,20 +169,20 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T5 (VBE)   | 0.568V           | 0.63V            | 0.658V           | 0.694V           |
 | T6         | 0.582V           | 0.858V           | 2.058V           | 4.98V            |
 
-### **Component Voltage Drops**
+### **Table 4.2: Component Voltage Drops**
 | Component | Voltage Across (Dim LED) | Voltage Across (Midpoint 1) | Voltage Across (Midpoint 2) | Voltage Across (Bright LED) |
 |-----------|--------------------------|--------------------------|--------------------------|--------------------------|
 | R1        | 0.32V                    | 3.035V                   | 3.096V                   | 3.098V                   |
 | LED1      | 1.662V                   | 1.864V                   | 1.873V                   | 1.874V                   |
 | R2        | 0.015V                   | 0.228V                   | 1.396V                   | 4.30V                    |
 
-### **Current Measurements**
+### **Table 4.3: Current Measurements**
 | Component  | Current Through (Dim LED) | Current Through (Midpoint 1) | Current Through (Midpoint 2) | Current Through (Bright LED) |
 |------------|--------------------------|--------------------------|--------------------------|--------------------------|
 | LED1 (IC)  | 1.22 mA                   | 11.3 mA                   | 11.45 mA                  | 11.53 mA                  |
 | R2 (IB)    | 0.04 mA                   | 0.24 mA                   | 1.42 mA                   | 4.35 mA                   |
 
-### **Gain (IC / IB)**
+### **Table 4.4: Gain (IC / IB)**
 | Condition | Gain (IC / IB) |
 |-----------|---------------|
 | Dim LED   | 30.5          |
@@ -192,7 +192,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 
 ### Circuit 4 -----------------------------------------------------------------------------------------------------------------
 
-### **Test Point Voltages**
+### **Table 5.1: Test Point Voltages**
 | Test Point | Voltage (Slow Motor) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Fast Motor) |
 |------------|----------------------|----------------------|----------------------|----------------------|
 | T2         | 4.76V                | 4.72V                | 4.68V                | 4.61V                |
@@ -200,20 +200,20 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T5 (VBE)   | 0.646V               | 0.665V               | 0.69V                | 0.706V               |
 | T6         | 1.315V               | 1.488V               | 1.83V                | 2.585V               |
 
-### **Component Voltage Drops**
+### **Table 5.2: Component Voltage Drops**
 | Component | Voltage Across (Slow Motor) | Voltage Across (Midpoint 1) | Voltage Across (Midpoint 2) | Voltage Across (Fast Motor) |
 |-----------|----------------------------|----------------------------|----------------------------|----------------------------|
 | R1        | 0.210V                     | 0.256V                     | 0.304V                     | 0.328V                     |
 | M1        | 1.52V                       | 2.63V                      | 3.926V                     | 4.44V                      |
 | R2        | 0.669V                      | 0.822V                     | 1.138V                     | 1.882V                     |
 
-### **Current Measurements**
+### **Table 5.3: Current Measurements**
 | Component  | Current Through (Slow Motor) | Current Through (Midpoint 1) | Current Through (Midpoint 2) | Current Through (Fast Motor) |
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 | M1 (IC)    | 91.3 mA                     | 117.2 mA                    | 149.3 mA                    | 158.7 mA                    |
 | R2 (IB)    | 0.67 mA                     | 0.89 mA                     | 1.17 mA                     | 1.87 mA                     |
 
-### **Gain (IC / IB)**
+### **Table 5.4: Gain (IC / IB)**
 | Condition  | Gain (IC / IB) |
 |------------|---------------|
 | Slow Motor | 136.3         |
