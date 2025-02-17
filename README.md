@@ -23,7 +23,7 @@ Resistors: 2.2Ω, 270Ω, 1kΩ, LED, Sliding Switch, Electric Motor, NTE 125 D
 
 
 # Test Results
-The results obtained for step 1 of the Test Procedures are shown in the table below. All resistors were found to be in tolerance
+
 
 **Resistor Values Table**  
 | Color Code        | Expected Value (Ω) | Tolerance (%) | Measured Value (Ω) | Within Tolerance |
@@ -33,7 +33,7 @@ The results obtained for step 1 of the Test Procedures are shown in the table be
 | Red Red Gold     | 2.2Ω               | 10           | 2.7Ω               | No               |
 
 
-
+# Circuit 1
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
@@ -54,7 +54,7 @@ The results obtained for step 1 of the Test Procedures are shown in the table be
 | LED1      | 11.65 mA                     | 0.01 mA                      |
 
 
-
+# Circuit 2
 
 
 ### **Test Point Voltages**
@@ -80,7 +80,7 @@ The results obtained for step 1 of the Test Procedures are shown in the table be
 | R2 (IB)    | 4.33 mA                      | 0.02 mA                      |
 
 
-
+# Circuit 3
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Dim LED) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Bright LED) |
@@ -111,7 +111,7 @@ The results obtained for step 1 of the Test Procedures are shown in the table be
 | Midpoint 2| 8.07          |
 | Bright LED| 2.65          |
 
-
+# Circuit 4
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Slow Motor) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Fast Motor) |
