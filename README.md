@@ -61,7 +61,45 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 2. Fluke Digital Multimeter
 
 # Test Procedures
+## Part 1: LED Driving Circuits
+### Step 1: Measure Resistor Values
+1. Turn on the Fluke DMM and set it to the resistance (Ω) mode.
+2. Connect the DMM probes to the resistor terminals.
+3. Record the actual resistance values in Table 1.
 
+### Step 2: Build the Circuit (Figure 3)
+1. Assemble the circuit as shown in Figure 3.
+2. Power the circuit using a DC power supply set to 5V.
+3. Use the DMM in voltage mode (V) to measure voltages at each test point (T2, T3, etc.).
+4. Place the black (COMMON) probe on the ground (T4).
+5. Place the red probe on the test point.
+6. Record values in Table 2.
+7. Calculate the current through R1 using Ohm’s Law:
+
+### Step 3: Build the Circuit (Figure 4)
+1. Construct the circuit as shown in Figure 4.
+2. Power the circuit with 5VDC.
+3. Measure the voltages at each test point (T2, T3, T5, T6) with respect to ground (T4).
+4. Record the voltage and current values in Table 3.
+5. Determine the voltage drop across the transistor (VCE) and compare it with the datasheet.
+6. Adjust the power supply to verify transistor saturation behavior.
+
+## Part 2 - Controlling LED Current Using a Transistor
+### Step 1: Build the Circuit (Figure 5)
+1. Assemble the circuit as per Figure 5.
+2. Set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6.
+3. Use a potentiometer to vary voltage at T6 and observe LED brightness.
+4. Record the values at four different brightness levels in Table 4.
+5. Calculate gain using: Gain= Ic/Ib
+    a. Create a graph showing IB, IC, Gain, and VCE vs. input voltage.
+
+## Part 3 - Motor Driving Circuit
+### Step 5: Build the Circuit (Figure 6)
+1. Assemble the circuit with the motor.
+2. Measure voltages at T2, T3, T5, and T6 using the DMM.
+3. Adjust the potentiometer to change the motor speed.
+4. Record voltage and current values in Table 5.
+5. Compare transistor voltage drops in LED and motor circuits.
 
 # Test Results
 
@@ -74,7 +112,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Red Red Gold     | 2.2Ω               | 10           | 2.7Ω               | No               |
 
 
-### Circuit 1 -----------------------------------------------------------------------------------------------------------------
+### Circuit 1 ---------------------------------------------------------------------------------------------            
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
