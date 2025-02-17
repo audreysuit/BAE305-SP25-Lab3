@@ -8,16 +8,46 @@ The goal of this lab is to learn how to use bipolar junction transistors (BJTs) 
 
 # Materials
 
-Resistors: 2.2Ω, 270Ω, 1kΩ, LED, Sliding Switch, Electric Motor, NTE 125 Diode, 1kΩ Trimmer Potentiometer, TIP31C Transistor  
+Resistors: 2.2Ω, 270Ω, 1kΩ, LED, Sliding Switch, Electric Motor, NTE 125 Diode, 1kΩ Trimmer Potentiometer, TIP31C Transistor, Screwdriver
 
 
 
 
 # Assembly Procedures
 
+### Part 1: LED Driving Circuits
+
+Using the Fluke digital multimeter, we measured the actual resistance of the 270 Ω, 1 kΩ, and 2.2 kΩ resistors by attaching the multimeter probes to their terminals with alligator clips. The labeled resistance was verified using the resistor color code. After verifying the resistor values, we proceeded to construct the circuit below on a standard prototyping breadboard.
+
+![image](https://github.com/user-attachments/assets/7efe37d6-9e24-40b1-ad59-e12995962bc7)
+
+Instead of using a physical switch, we connected a wire that we could plug and unplug as needed for testing. 
+
+After taking measurements detailed in the Test Procedures section of this lab report, we built the next circuit below on the breadboard.
+
+![image](https://github.com/user-attachments/assets/fd9ed978-ba90-4d89-986d-15f4de22a728)
+
+We again used a wire as a switch.
+
+After taking measurements also detailed in the Test Procedures, we built the circuit below on the breadboard.
+
+![image](https://github.com/user-attachments/assets/51b995fb-a0f5-4d96-a954-46b94395d2f3)
+
+A small screwdriver is required to adjust the potentiometer, and thus the circuit to create varying levels of LED brightness.
+
+### Part 2 : Motor Driving Circuit
+
+After completing part one, we built the motor driving circuit shown below.
+
+![image](https://github.com/user-attachments/assets/aedef844-4d57-484c-b99d-41064e64cf6c)
+
+We rested the motor on our wire-holding plastic case so it would be level with the circuit and keep it from straining the wires attaching it to the breadboard. This also stabilized it while it was turned on.
+As with the LED brightness, the motor speed was controlled by using a small screwdriver to adjust the potentiometer.
+
 
 # Test Equipment
 1. DC Power Supply
+2. Fluke Digital Multimeter
 
 # Test Procedures
 
@@ -33,7 +63,7 @@ Resistors: 2.2Ω, 270Ω, 1kΩ, LED, Sliding Switch, Electric Motor, NTE 125 D
 | Red Red Gold     | 2.2Ω               | 10           | 2.7Ω               | No               |
 
 
-Circuit 1
+### Circuit 1
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
@@ -54,7 +84,7 @@ Circuit 1
 | LED1      | 11.65 mA                     | 0.01 mA                      |
 
 
-Circuit 2
+### Circuit 2
 
 
 ### **Test Point Voltages**
@@ -80,7 +110,7 @@ Circuit 2
 | R2 (IB)    | 4.33 mA                      | 0.02 mA                      |
 
 
-Circuit 3
+### Circuit 3
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Dim LED) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Bright LED) |
@@ -111,7 +141,7 @@ Circuit 3
 | Midpoint 2| 8.07          |
 | Bright LED| 2.65          |
 
-Circuit 4
+### Circuit 4
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Slow Motor) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Fast Motor) |
