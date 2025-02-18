@@ -66,69 +66,76 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 # Test Procedures
 ## Part 1: LED Driving Circuits
 ### Step 1: Measure Resistor Values
-1. Turn on the Fluke DMM and set it to the resistance (Ω) mode.
-2. Connect the DMM probes to the resistor terminals.
-3. Record the actual resistance values in Table 1.
+1. We verified the resistor values using the steps below, and recorded the measurements in Table 1. This is important to have an accurate reference for expected values in lab.
+2. Turn on the Fluke DMM and set it to the resistance (Ω) mode.
+3. Connect the DMM probes to the opposite ends of the resistor (the terminals).
+4. Record the actual resistance values in Table 1.
 
 ### Step 2: Build the Circuit (Figure 1)
-1. Assemble the circuit as shown in Figure 3.
-2. Power the circuit using a DC power supply set to 5V.
-3. Use the DMM in voltage mode (V) to measure voltages at each test point (T2, T3, etc.).
-4. Place the black (COMMON) probe on the ground (T4).
-5. Place the red probe on the test point.
-6. Record values in Table 2.
-7. Calculate the current through R1 using Ohm’s Law:
+1. We followed the below steps to get measurements for a circuit with an LED directly connected to a switch
+2. Assemble the circuit as shown in Figure 1.1 & 1.2.
+3. Power the circuit using a DC power supply set to 5V. We confirmed T1 was close to 5V. Our value was exactly 5V.
+4. Use the DMM in voltage mode (V) to measure voltages at each test point (T2, T3, etc.). We placed the black (common) probe on the ground (labeled T4 in figure 1.1) and placed the red probe on the test points listed above. 
+5. Using the DMM, also measure voltage across R1, LED1, and S1 by attaching probes to each terminal of the respective component.  
+7. We recorded the above values in Table 2. We recorded all measurements with the switch on and off, by disconnecting the wire between T3 and T4 for off and connecting it for on.
+8. Calculate the current through R1 using Ohm’s Law and the measured resistor and voltage values: V=IR. A component with a known resistance must be used to calculate current.  We also measured the current by interrupting the circuit and connecting the DMM in series in current (mA) mode.
 
 ### Step 3: Build the Circuit (Figure 2)
-1. Construct the circuit as shown in Figure 4.
-2. Power the circuit with 5VDC.
-3. Measure the voltages at each test point (T2, T3, T5, T6) with respect to ground (T4).
-4. Record the voltage and current values in Table 3.
-5. Determine the voltage drop across the transistor (VCE) and compare it with the datasheet.
-6. Adjust the power supply to verify transistor saturation behavior.
+1. Construct the circuit as shown in Figure 2.1 and 2.2.
+2. Power the circuit with 5VDC and confirm T1 and T7 are close to 5V. Our values were exactly 5V.
+3. Measure the voltages at each test point (T2, T3, T5, T6) with respect to ground (T4) by placing the black probe on T4 and the red probe on the test points.
+4. Calculate the currents through the resistors using measured voltages. We also measured the current by interrupting the circuit and connecting the DMM in series in current (mA) mode.
+5. Record the voltage and current values in Table 3. We recorded all measurements with the switch on and off, by disconnecting the wire between T7 and T6 for off and connecting it for on.
+6. Determine the voltage drop across the transistor (VCE) and compare it with the datasheet.
+7. Adjust the power supply to verify transistor saturation behavior. Current should increase with increasing voltage
 
 ## Part 2 - Controlling LED Current Using a Transistor
 ### Step 1: Build the Circuit (Figure 3)
-1. Assemble the circuit as per Figure 5.
-2. Set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6.
-3. Use a potentiometer to vary voltage at T6 and observe LED brightness.
-4. Record the values at four different brightness levels in Table 4.
-5. Calculate gain using: Gain= Ic/Ib
-    a. Create a graph showing IB, IC, Gain, and VCE vs. input voltage.
+1. Assemble the circuit as per Figure 3.1 and 3.2.
+2. To test the function of the potentiometer, we used a screwdriver to change the resistance and saw the LED turn on and off
+3. We took measurements at 4 levels: Dim LED, Midpoint 1&2, and Bright LED. Dim LED was the point at which the LED is just barely visible. Bright LED is when the LED just reached full brightness.
+4. To take measurements, we set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6 with respect to ground. Also measure the voltage accross R1, LED1 and R2. 
+6. Record the values at four different brightness levels in Table 4.
+7. We also measured current by interrupting the circuit before LED1 and R2 by using the DMM in series set to Current mode (mA). Calculate gain using: Gain= Ic/Ib
+    a. Create a graph showing IB, IC, Gain, and VCE vs. input voltage. We did this in excel. See figure 5
 
 ## Part 3 - Motor Driving Circuit
 ### Step 1: Build the Circuit (Figure 4)
-1. Assemble the circuit with the motor.
-2. Measure voltages at T2, T3, T5, and T6 using the DMM.
-3. Adjust the potentiometer to change the motor speed.
-4. Record voltage and current values in Table 5.
-5. Compare transistor voltage drops in LED and motor circuits.
+1. Assemble the circuit with the motor shown in figure 4.1 and 4.2.
+2. To test the function of the potentiometer, we used a screwdriver to change the resistance and saw the motor move faster and slower.
+3. Again, we took measurements at 4 levels: slow motor, Midpoint 1&2, and fast motor. Slow motor was the point at which the motor is just barely moving. Fast motor was at the point in which it just reached its max speed.
+4. To take measurements, we set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6 with respect to ground. Also measure the voltage accross R1, M1 and R2.
+5. Adjust the potentiometer to change the motor speed. We also measured current by interrupting the circuit before M1 and R2 by using the DMM in series set to Current mode (mA). Calculate gain using: Gain= Ic/Ib
+6. Record voltage and current values in Table 5.
+7. Create a graph showing IB, IC, Gain, and VCE vs. input voltage. We did this in excel. See Figure 6.
 
 # Test Results
 
 
-**Table 1: Resistor Values Table**  
+**Resistor Values Table**  
 | Color Code        | Expected Value (Ω) | Tolerance (%) | Measured Value (Ω) | Within Tolerance |
 |-------------------|--------------------|--------------|--------------------|------------------|
 | Red Violet Brown | 270Ω               | 10           | 267.7Ω             | Yes              |
 | Brown Black Red  | 1kΩ                | 10           | 993Ω               | Yes              |
 | Red Red Gold     | 2.2Ω               | 10           | 2.7Ω               | No               |
-
+<p align="left"><em>Table 1: Measured, real values of the resistors used in the lab. The 270Ω and 1kΩ resistors are in tolerance. The 2.2Ω resistor is not. </em></p>
 
 ### Circuit 1 ---------------------------------------------------------------------------------------------            
 
-### **Table 2.1: Test Point Voltages**
+### **Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
 |------------|---------------------|----------------------|
 | T2         | 1.878V              | 5.00V               |
 | T3         | 0.001V              | 3.698V              |
+<p align="left"><em> Table 2.1: Test point measurements of Circuit 1 with an LED directly connected to a switch. Both T2 and T3 voltage measurements increase when the switch is off since there is no current through the circuit. </em></p>
 
-### **Table 2.2: Component Voltage Drops**
+### **Component Voltage Drops**
 | Component | Voltage Across (Switch On) | Voltage Across (Switch Off) |
 |-----------|----------------------------|-----------------------------|
 | R1        | 3.128V                     | 0V                          |
 | LED1      | 1.875V                     | 0.063V                      |
 | S1        | 0V                         | 0V                          |
+<p align="left"><em> Table 2.2: Component voltage drop measurements of Circuit 1 with an LED directly connected to a switch. The voltage drop accross both R1 and LED1 both decrease to about zero when the switch is off since no current is flowing in the circuit. </em></p>
 
 ### **Table 2.3: Current Measurements**
 | Component | Current Through (Switch On) | Current Through (Switch Off) |
@@ -193,6 +200,9 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Midpoint 2| 8.07          |
 | Bright LED| 2.65          |
 
+![image](https://github.com/user-attachments/assets/ca9bce63-e80a-481a-a248-2aa69c8049f8)
+<p align="left"><em>Figure 5: Graph showing IB, IC, VCE, and Gain for vairous input voltages of a LED.  </em></p>
+
 ### Circuit 4 -----------------------------------------------------------------------------------------------------------------
 
 ### **Table 5.1: Test Point Voltages**
@@ -225,7 +235,8 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Fast Motor | 84.9          |
 
 
-
+![Image](https://github.com/user-attachments/assets/49b81638-3beb-4bb9-aa5b-0e468af136e4)
+<p align="left"><em>Figure 6: Graph showing IB, IC, VCE, and Gain for vairous input voltages of a motor.  </em></p>
 
 
 
