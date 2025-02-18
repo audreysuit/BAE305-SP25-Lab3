@@ -153,23 +153,23 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T3 (VCE)   | 0.016V              | 3.683V              |
 | T5 (VBE)   | 0.695V              | 0V                  |
 | T6         | 5.00V               | 0V                  |
-<p align="left"><em> Table 3.1: Test point measurements of Circuit 2 with an LED connected through a transistor. Both T2 and T3 voltage measurements increase when the switch is off, however, T5 and T6 decrease to zero. More current is moving across T1 and T2, but zero current is moving through T6 and T5 since the switch creates an open circuit through that part. </em></p>
+<p align="left"><em> Table 3.1: Test point measurements of Circuit 2 with an LED connected through a transistor. Both T2 and T3 voltage measurements increase when the switch is off, however, T5 and T6 decrease to zero. Voltage is still moving across T1 and T2, but zero current is moving through T6 and T5 since the switch creates an open circuit through that part. </em></p>
 
-### **Table 3.2: Component Voltage Drops**
+### **Component Voltage Drops**
 | Component | Voltage Across (Switch On) | Voltage Across (Switch Off) |
 |-----------|----------------------------|-----------------------------|
 | R1        | 3.105V                     | 0V                          |
 | LED1      | 1.873V                     | 0.035V                      |
 | R2        | 4.30V                      | 0V                          |
 | S1        | 0V                          | 0V                          |
-<p align="left"><em> Table 3.2:  Component voltage drop measurements of Circuit 2 with an LED connected through a transistor. Both T2 and T3 voltage measurements increase when the switch is off, however, T5 and T6 decrease to zero. More current is moving across T1 and T2, but zero current is moving through T6 and T5 since the switch creates an open circuit through that part. </em></p>
+<p align="left"><em> Table 3.2:  Component voltage drop measurements of Circuit 2 with an LED connected through a transistor. Both T2 and T3 voltage measurements increase when the switch is off, however, T5 and T6 decrease to zero. No current is moving through the circuit since the switch creates an open circuit. </em></p>
 
-### **Table 3.3: Current Measurements**
+### **Current Measurements**
 | Component  | Current Through (Switch On) | Current Through (Switch Off) |
 |------------|-----------------------------|------------------------------|
 | LED1 (IC)  | 11.53 mA                     | 0.01 mA                      |
 | R2 (IB)    | 4.33 mA                      | 0.02 mA                      |
-
+<p align="left"><em> Table 3.3: Current measurements of Circuit 2 with an LED connected through a transistor. Both LED1 and R2 decrease to zero when the switch is off. No current is moving through the circuit since the switch creates an open circuit. </em></p>
 
 ### Circuit 3 -----------------------------------------------------------------------------------------------------------------
 
@@ -180,6 +180,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T3 (VCE)   | 3.008V           | 0.076V           | 0.026V           | 0.016V           |
 | T5 (VBE)   | 0.568V           | 0.63V            | 0.658V           | 0.694V           |
 | T6         | 0.582V           | 0.858V           | 2.058V           | 4.98V            |
+<p align="left"><em> Table 4.1: Test point measurements of Circuit 3 using a transistor to control LED current. T2 and T3 voltage measurements decrease as the led brightens however, T5 and T6 voltages increase.  </em></p>
 
 ### **Table 4.2: Component Voltage Drops**
 | Component | Voltage Across (Dim LED) | Voltage Across (Midpoint 1) | Voltage Across (Midpoint 2) | Voltage Across (Bright LED) |
@@ -187,12 +188,14 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | R1        | 0.32V                    | 3.035V                   | 3.096V                   | 3.098V                   |
 | LED1      | 1.662V                   | 1.864V                   | 1.873V                   | 1.874V                   |
 | R2        | 0.015V                   | 0.228V                   | 1.396V                   | 4.30V                    |
+<p align="left"><em> Table 4.2: Component voltage measurements of Circuit 3 using a transistor to control LED current. The voltage drop accross all 3 components increase as the LED brightens, indicating an increase in current.  </em></p>
 
 ### **Table 4.3: Current Measurements**
 | Component  | Current Through (Dim LED) | Current Through (Midpoint 1) | Current Through (Midpoint 2) | Current Through (Bright LED) |
 |------------|--------------------------|--------------------------|--------------------------|--------------------------|
 | LED1 (IC)  | 1.22 mA                   | 11.3 mA                   | 11.45 mA                  | 11.53 mA                  |
 | R2 (IB)    | 0.04 mA                   | 0.24 mA                   | 1.42 mA                   | 4.35 mA                   |
+<p align="left"><em> Table 4.3: Current measurements of Circuit 3 using a transistor to control LED current. Currents across LED1 and R1 increase with increasing LED brightness.  </em></p>
 
 ### **Table 4.4: Gain (IC / IB)**
 | Condition | Gain (IC / IB) |
@@ -201,6 +204,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Midpoint 1| 47.1          |
 | Midpoint 2| 8.07          |
 | Bright LED| 2.65          |
+<p align="left"><em> Table 4.4: Current gain in Circuit 3 using a transistor to control LED current. The gain follows a general decreasing trend with increasing brightness, besides midpoint 1 which shows an increased gain. As the LED gets brighter, the transistor moves towards the saturation region. Initially the transitior is in the active region and is amplifying until it reaches saturation. </em></p>
 
 ![image](https://github.com/user-attachments/assets/ca9bce63-e80a-481a-a248-2aa69c8049f8)
 <p align="left"><em>Figure 5: Graph showing IB, IC, VCE, and Gain for vairous input voltages of a LED.  </em></p>
@@ -214,6 +218,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T3 (VCE)   | 3.23V                | 2.22V                | 0.802V               | 0.211V               |
 | T5 (VBE)   | 0.646V               | 0.665V               | 0.69V                | 0.706V               |
 | T6         | 1.315V               | 1.488V               | 1.83V                | 2.585V               |
+<p align="left"><em> Table 5.1: Test point measurements of Circuit 4 controlling motor current and speed using a transistor. T2 and T3 voltage measurements decrease as the led brightens however, T5 and T6 voltages increase.  </em></p>
 
 ### **Table 5.2: Component Voltage Drops**
 | Component | Voltage Across (Slow Motor) | Voltage Across (Midpoint 1) | Voltage Across (Midpoint 2) | Voltage Across (Fast Motor) |
