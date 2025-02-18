@@ -1,4 +1,4 @@
-# Laboratory Report for Lab 1 of BAE305 Spring 2025
+# Laboratory Report for Lab 3 of BAE305 Spring 2025
 # Lab 3 – Let's Switch : Transistors as Switches
 * By: Abby Phillips and Audrey Suit
 * Submitted: February 17th, 2025
