@@ -70,7 +70,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 2. Connect the DMM probes to the resistor terminals.
 3. Record the actual resistance values in Table 1.
 
-### Step 2: Build the Circuit (Figure 3)
+### Step 2: Build the Circuit (Figure 1)
 1. Assemble the circuit as shown in Figure 3.
 2. Power the circuit using a DC power supply set to 5V.
 3. Use the DMM in voltage mode (V) to measure voltages at each test point (T2, T3, etc.).
@@ -79,7 +79,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 6. Record values in Table 2.
 7. Calculate the current through R1 using Ohm’s Law:
 
-### Step 3: Build the Circuit (Figure 4)
+### Step 3: Build the Circuit (Figure 2)
 1. Construct the circuit as shown in Figure 4.
 2. Power the circuit with 5VDC.
 3. Measure the voltages at each test point (T2, T3, T5, T6) with respect to ground (T4).
@@ -88,7 +88,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 6. Adjust the power supply to verify transistor saturation behavior.
 
 ## Part 2 - Controlling LED Current Using a Transistor
-### Step 1: Build the Circuit (Figure 5)
+### Step 1: Build the Circuit (Figure 3)
 1. Assemble the circuit as per Figure 5.
 2. Set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6.
 3. Use a potentiometer to vary voltage at T6 and observe LED brightness.
@@ -97,7 +97,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
     a. Create a graph showing IB, IC, Gain, and VCE vs. input voltage.
 
 ## Part 3 - Motor Driving Circuit
-### Step 5: Build the Circuit (Figure 6)
+### Step 1: Build the Circuit (Figure 4)
 1. Assemble the circuit with the motor.
 2. Measure voltages at T2, T3, T5, and T6 using the DMM.
 3. Adjust the potentiometer to change the motor speed.
