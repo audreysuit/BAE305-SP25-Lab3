@@ -120,7 +120,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Red Red Gold     | 2.2Ω               | 10           | 2.7Ω               | No               |
 <p align="left"><em>Table 1: Measured, real values of the resistors used in the lab. The 270Ω and 1kΩ resistors are in tolerance. The 2.2Ω resistor is not. </em></p>
 
-### Circuit 1 ---------------------------------------------------------------------------------------------            
+### Circuit 1 ---------------------------------------------------------------------------------            
 
 ### **Test Point Voltages**
 | Test Point | Voltage (Switch On) | Voltage (Switch Off) |
@@ -143,7 +143,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | LED1      | 11.65 mA                     | 0.01 mA                      |
 <p align="left"><em> Table 2.3: Current through the LED of Circuit 1 with an LED directly connected to a switch. The current in through the LED goes to about zero when the switch is off since the switch creates an open circuit. </em></p>
 
-### Circuit 2 -----------------------------------------------------------------------------------------------------------------
+### Circuit 2 ---------------------------------------------------------------------------------
 
 
 ### **Table 3.1: Test Point Voltages**
@@ -171,7 +171,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | R2 (IB)    | 4.33 mA                      | 0.02 mA                      |
 <p align="left"><em> Table 3.3: Current measurements of Circuit 2 with an LED connected through a transistor. Both LED1 and R2 decrease to zero when the switch is off. No current is moving through the circuit since the switch creates an open circuit. </em></p>
 
-### Circuit 3 -----------------------------------------------------------------------------------------------------------------
+### Circuit 3 ---------------------------------------------------------------------------------
 
 ### **Table 4.1: Test Point Voltages**
 | Test Point | Voltage (Dim LED) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Bright LED) |
@@ -209,7 +209,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 ![image](https://github.com/user-attachments/assets/ca9bce63-e80a-481a-a248-2aa69c8049f8)
 <p align="left"><em>Figure 5: Graph showing IB, IC, VCE, and Gain for vairous input voltages of a LED.  </em></p>
 
-### Circuit 4 -----------------------------------------------------------------------------------------------------------------
+### Circuit 4 ---------------------------------------------------------------------------------
 
 ### **Table 5.1: Test Point Voltages**
 | Test Point | Voltage (Slow Motor) | Voltage (Midpoint 1) | Voltage (Midpoint 2) | Voltage (Fast Motor) |
