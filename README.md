@@ -26,7 +26,7 @@ Using the Fluke digital multimeter, we measured the actual resistance of the 270
 <p align="left"><em>Figure 1.2: Image of Circuit 1. An LED directly connected to a switch represented by the red wire which could be connected and disconnected as needed for switch on/switch off measurements. </em></p>
 
 
-After taking measurements of Circuit 1, detailed in the Test Procedures section of this lab report, we built the next circuit illustrated in Figure 2.1 and 2.2 below on the breadboard.
+After taking measurements of Circuit 1, detailed in the Test Procedures section of this lab report, we built the next circuit, illustrated in Figures 2.1 and 2.2 below on the breadboard.
 
 ![image](https://github.com/user-attachments/assets/fd9ed978-ba90-4d89-986d-15f4de22a728)
 <p align="left"><em>Figure 2.1: Schematic of Circuit 2. An LED driven by a transistor with a fixed current. </em></p>
@@ -66,7 +66,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 # Test Procedures
 ## Part 1: LED Driving Circuits
 ### Step 1: Measure Resistor Values
-1. We verified the resistor values using the steps below, and recorded the measurements in Table 1. This is important to have an accurate reference for expected values in lab.
+1. We verified the resistor values using the steps below and recorded the measurements in Table 1. This is important in order to have an accurate reference for expected values in lab.
 2. Turn on the Fluke DMM and set it to the resistance (Ω) mode.
 3. Connect the DMM probes to the opposite ends of the resistor (the terminals).
 4. Record the actual resistance values in Table 1.
@@ -75,13 +75,13 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 1. We followed the below steps to get measurements for a circuit with an LED directly connected to a switch
 2. Assemble the circuit as shown in Figure 1.1 & 1.2.
 3. Power the circuit using a DC power supply set to 5V. We confirmed T1 was close to 5V. Our value was exactly 5V.
-4. Use the DMM in voltage mode (V) to measure voltages at each test point (T2, T3, etc.). We placed the black (common) probe on the ground (labeled T4 in figure 1.1) and placed the red probe on the test points listed above. 
+4. Use the DMM in voltage mode (V) to measure voltages at each test point (T2, T3, etc.). We placed the black (common) probe on the ground (labeled T4 in Figure 1.1) and placed the red probe on the test points listed above. 
 5. Using the DMM, also measure voltage across R1, LED1, and S1 by attaching probes to each terminal of the respective component.  
 7. We recorded the above values in Table 2. We recorded all measurements with the switch on and off, by disconnecting the wire between T3 and T4 for off and connecting it for on.
 8. Calculate the current through R1 using Ohm’s Law and the measured resistor and voltage values: V=IR. A component with a known resistance must be used to calculate current.  We also measured the current by interrupting the circuit and connecting the DMM in series in current (mA) mode.
 
 ### Step 3: Build the Circuit (Figure 2)
-1. Construct the circuit as shown in Figure 2.1 and 2.2.
+1. Construct the circuit as shown in Figures 2.1 and 2.2.
 2. Power the circuit with 5VDC and confirm T1 and T7 are close to 5V. Our values were exactly 5V.
 3. Measure the voltages at each test point (T2, T3, T5, T6) with respect to ground (T4) by placing the black probe on T4 and the red probe on the test points.
 4. Calculate the currents through the resistors using measured voltages. We also measured the current by interrupting the circuit and connecting the DMM in series in current (mA) mode.
@@ -94,20 +94,20 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 1. Assemble the circuit as per Figure 3.1 and 3.2.
 2. To test the function of the potentiometer, we used a screwdriver to change the resistance and saw the LED turn on and off
 3. We took measurements at 4 levels: Dim LED, Midpoint 1&2, and Bright LED. Dim LED was the point at which the LED is just barely visible. Bright LED is when the LED just reached full brightness.
-4. To take measurements, we set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6 with respect to ground. Also measure the voltage accross R1, LED1 and R2. 
+4. To take measurements, we set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6 with respect to ground. Also, measure the voltage across R1, LED1 and R2. 
 6. Record the values at four different brightness levels in Table 4.
 7. We also measured current by interrupting the circuit before LED1 and R2 by using the DMM in series set to Current mode (mA). Calculate gain using: Gain= Ic/Ib
-    a. Create a graph showing IB, IC, Gain, and VCE vs. input voltage. We did this in excel. See figure 5
+    a. Create a graph showing IB, IC, Gain, and VCE vs. input voltage. We did this in Excel. See figure 5
 
 ## Part 3 - Motor Driving Circuit
 ### Step 1: Build the Circuit (Figure 4)
-1. Assemble the circuit with the motor shown in figure 4.1 and 4.2.
+1. Assemble the circuit with the motor shown in Figures 4.1 and 4.2.
 2. To test the function of the potentiometer, we used a screwdriver to change the resistance and saw the motor move faster and slower.
 3. Again, we took measurements at 4 levels: slow motor, Midpoint 1&2, and fast motor. Slow motor was the point at which the motor is just barely moving. Fast motor was at the point in which it just reached its max speed.
-4. To take measurements, we set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6 with respect to ground. Also measure the voltage accross R1, M1 and R2.
+4. To take measurements, we set the Fluke DMM to voltage mode (V) and measure voltages at T2, T3, T5, and T6 with respect to ground. Also, measure the voltage across R1, M1 and R2.
 5. Adjust the potentiometer to change the motor speed. We also measured current by interrupting the circuit before M1 and R2 by using the DMM in series set to Current mode (mA). Calculate gain using: Gain= Ic/Ib
 6. Record voltage and current values in Table 5.
-7. Create a graph showing IB, IC, Gain, and VCE vs. input voltage. We did this in excel. See Figure 6.
+7. Create a graph showing IB, IC, Gain, and VCE vs. input voltage. We did this in Excel. See Figure 6.
 
 # Test Results
 
@@ -135,7 +135,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | R1        | 3.128V                     | 0V                          |
 | LED1      | 1.875V                     | 0.063V                      |
 | S1        | 0V                         | 0V                          |
-<p align="left"><em> Table 2.2: Component voltage drop measurements of Circuit 1 with an LED directly connected to a switch. The voltage drop accross both R1 and LED1 both decrease to about zero when the switch is off since no current is flowing in the circuit. </em></p>
+<p align="left"><em> Table 2.2: Component voltage drop measurements of Circuit 1 with an LED directly connected to a switch. The voltage drop across both R1 and LED1 decreases to about zero when the switch is off since no current is flowing in the circuit. </em></p>
 
 ### **Table 2.3: Current Measurements**
 | Component | Current Through (Switch On) | Current Through (Switch Off) |
@@ -180,7 +180,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T3 (VCE)   | 3.008V           | 0.076V           | 0.026V           | 0.016V           |
 | T5 (VBE)   | 0.568V           | 0.63V            | 0.658V           | 0.694V           |
 | T6         | 0.582V           | 0.858V           | 2.058V           | 4.98V            |
-<p align="left"><em> Table 4.1: Test point measurements of Circuit 3 using a transistor to control LED current. T2 and T3 voltage measurements decrease as the led brightens however, T5 and T6 voltages increase.  </em></p>
+<p align="left"><em> Table 4.1: Test point measurements of Circuit 3 using a transistor to control LED current. T2 and T3 voltage measurements decrease as the LED brightens; however, T5 and T6 voltages increase.  </em></p>
 
 ### **Table 4.2: Component Voltage Drops**
 | Component | Voltage Across (Dim LED) | Voltage Across (Midpoint 1) | Voltage Across (Midpoint 2) | Voltage Across (Bright LED) |
@@ -188,7 +188,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | R1        | 0.32V                    | 3.035V                   | 3.096V                   | 3.098V                   |
 | LED1      | 1.662V                   | 1.864V                   | 1.873V                   | 1.874V                   |
 | R2        | 0.015V                   | 0.228V                   | 1.396V                   | 4.30V                    |
-<p align="left"><em> Table 4.2: Component voltage measurements of Circuit 3 using a transistor to control LED current. The voltage drop accross all 3 components increase as the LED brightens, indicating an increase in current.  </em></p>
+<p align="left"><em> Table 4.2: Component voltage measurements of Circuit 3 using a transistor to control LED current. The voltage drop across all 3 components increases as the LED brightens, indicating an increase in current.  </em></p>
 
 ### **Table 4.3: Current Measurements**
 | Component  | Current Through (Dim LED) | Current Through (Midpoint 1) | Current Through (Midpoint 2) | Current Through (Bright LED) |
@@ -207,7 +207,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 <p align="left"><em> Table 4.4: Current gain in Circuit 3 using a transistor to control LED current. The gain follows a general decreasing trend with increasing brightness, besides midpoint 1 which shows an increased gain. As the LED gets brighter, the transistor moves towards the saturation region. Initially the transitior is in the active region and is amplifying until it reaches saturation. </em></p>
 
 ![image](https://github.com/user-attachments/assets/ca9bce63-e80a-481a-a248-2aa69c8049f8)
-<p align="left"><em>Figure 5: Graph showing IB, IC, VCE, and Gain for vairous input voltages of a LED.  </em></p>
+<p align="left"><em>Figure 5: Graph showing IB, IC, VCE, and Gain for various input voltages of an LED.  </em></p>
 
 ### Circuit 4 ---------------------------------------------------------------------------------
 
@@ -245,7 +245,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 <p align="left"><em> Table 5.4: Gain calculated measurements of Circuit 4 controlling motor current and speed using a transistor. The gain decreases with increasing motor speed. This indicates the transistor is moving towards saturation. </em></p>
 
 ![Image](https://github.com/user-attachments/assets/49b81638-3beb-4bb9-aa5b-0e468af136e4)
-<p align="left"><em>Figure 6: Graph showing IB, IC, VCE, and Gain for vairous input voltages of a motor.  </em></p>
+<p align="left"><em>Figure 6: Graph showing IB, IC, VCE, and Gain for various input voltages of a motor.  </em></p>
 
 
 
@@ -269,3 +269,9 @@ Discussion Question 2: How much current is going through the motor in the Fast s
 When the motor was in the "fast" setting, the current going through it was 158.7 mA. Comparitively, the LED circuit used 11.53 mA when the LED was in the "bright" setting. The switch would not be able to support the motor directly and the transistor switch would be required to ensure enough current would be supplied to run the motor.
 
 # Conclusion
+
+This lab focused on applying bipolar junction transistors (BJTs) as switches to control current in LED and motor circuits. By constructing and analyzing multiple transistor-driven circuits, we gained hands-on experience with semiconductor switching applications and examined the behavior of transistors in different operating regions. Using a Fluke digital multimeter, we recorded voltage and current values at various test points and compared them to theoretical expectations.
+
+Our results showed that transistor switching effectively regulates current, allowing controlled operation of an LED and motor. The measured gain values provided insight into the transistor’s transition from the active region to saturation, demonstrating its efficiency in switching applications. However, slight discrepancies between measured and expected values were observed, likely due to component tolerances, measurement variations, and non-ideal transistor behavior.
+
+By the end of the lab, we developed a deeper understanding of transistor operation, circuit analysis, and the importance of precise measurements in electrical engineering applications.
