@@ -218,7 +218,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T3 (VCE)   | 3.23V                | 2.22V                | 0.802V               | 0.211V               |
 | T5 (VBE)   | 0.646V               | 0.665V               | 0.69V                | 0.706V               |
 | T6         | 1.315V               | 1.488V               | 1.83V                | 2.585V               |
-<p align="left"><em> Table 5.1: Test point measurements of Circuit 4 controlling motor current and speed using a transistor. T2 and T3 voltage measurements decrease as the led brightens however, T5 and T6 voltages increase.  </em></p>
+<p align="left"><em> Table 5.1: Test point measurements of Circuit 4 controlling motor current and speed using a transistor. T2 and T3 voltage measurements decrease as the motor speeds up however, T5 and T6 voltages increase.  </em></p>
 
 ### **Table 5.2: Component Voltage Drops**
 | Component | Voltage Across (Slow Motor) | Voltage Across (Midpoint 1) | Voltage Across (Midpoint 2) | Voltage Across (Fast Motor) |
@@ -226,12 +226,14 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | R1        | 0.210V                     | 0.256V                     | 0.304V                     | 0.328V                     |
 | M1        | 1.52V                       | 2.63V                      | 3.926V                     | 4.44V                      |
 | R2        | 0.669V                      | 0.822V                     | 1.138V                     | 1.882V                     |
+<p align="left"><em> Table 5.2: Component voltage measurements of Circuit 4 controlling motor current and speed using a transistor. All voltage measurements increase as the motor speed increases.  </em></p>
 
 ### **Table 5.3: Current Measurements**
 | Component  | Current Through (Slow Motor) | Current Through (Midpoint 1) | Current Through (Midpoint 2) | Current Through (Fast Motor) |
 |------------|----------------------------|----------------------------|----------------------------|----------------------------|
 | M1 (IC)    | 91.3 mA                     | 117.2 mA                    | 149.3 mA                    | 158.7 mA                    |
 | R2 (IB)    | 0.67 mA                     | 0.89 mA                     | 1.17 mA                     | 1.87 mA                     |
+<p align="left"><em> Table 5.3: Current measurements of Circuit 4 controlling motor current and speed using a transistor. Current through both components increases as the motor speed increases. The motor current is much higher overall than the R2 current.  </em></p>
 
 ### **Table 5.4: Gain (IC / IB)**
 | Condition  | Gain (IC / IB) |
@@ -240,7 +242,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Midpoint 1 | 131.7         |
 | Midpoint 2 | 127.6         |
 | Fast Motor | 84.9          |
-
+<p align="left"><em> Table 5.4: Gain calculated measurements of Circuit 4 controlling motor current and speed using a transistor. The gain decreases with increasing motor speed. This indicates the transistor is moving towards saturation. </em></p>
 
 ![Image](https://github.com/user-attachments/assets/49b81638-3beb-4bb9-aa5b-0e468af136e4)
 <p align="left"><em>Figure 6: Graph showing IB, IC, VCE, and Gain for vairous input voltages of a motor.  </em></p>
