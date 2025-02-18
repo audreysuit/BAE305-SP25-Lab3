@@ -141,7 +141,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | Component | Current Through (Switch On) | Current Through (Switch Off) |
 |-----------|-----------------------------|------------------------------|
 | LED1      | 11.65 mA                     | 0.01 mA                      |
-
+<p align="left"><em> Table 2.3: Current through the LED of Circuit 1 with an LED directly connected to a switch. The current in through the LED goes to about zero when the switch is off since the switch creates an open circuit. </em></p>
 
 ### Circuit 2 -----------------------------------------------------------------------------------------------------------------
 
@@ -153,6 +153,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | T3 (VCE)   | 0.016V              | 3.683V              |
 | T5 (VBE)   | 0.695V              | 0V                  |
 | T6         | 5.00V               | 0V                  |
+<p align="left"><em> Table 3.1: Test point measurements of Circuit 2 with an LED connected through a transistor. Both T2 and T3 voltage measurements increase when the switch is off, however, T5 and T6 decrease to zero. More current is moving across T1 and T2, but zero current is moving through T6 and T5 since the switch creates an open circuit through that part. </em></p>
 
 ### **Table 3.2: Component Voltage Drops**
 | Component | Voltage Across (Switch On) | Voltage Across (Switch Off) |
@@ -161,6 +162,7 @@ As with the LED brightness, the motor speed was controlled by using a small scre
 | LED1      | 1.873V                     | 0.035V                      |
 | R2        | 4.30V                      | 0V                          |
 | S1        | 0V                          | 0V                          |
+<p align="left"><em> Table 3.2:  Component voltage drop measurements of Circuit 2 with an LED connected through a transistor. Both T2 and T3 voltage measurements increase when the switch is off, however, T5 and T6 decrease to zero. More current is moving across T1 and T2, but zero current is moving through T6 and T5 since the switch creates an open circuit through that part. </em></p>
 
 ### **Table 3.3: Current Measurements**
 | Component  | Current Through (Switch On) | Current Through (Switch Off) |
